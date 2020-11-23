@@ -1,0 +1,4 @@
+# Ignored File
+__pycache__/
+*.rar
+*.txt
