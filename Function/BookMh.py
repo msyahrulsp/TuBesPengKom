@@ -11,7 +11,7 @@ from Function.BookChecker import *
 
 # ALGORITMA
 def pinjamBuku(): # Procedure peminjaman buku
-    from Function.login import holder # Mengambil global variabel holder dari file login
+    from Function.Login import holder # Mengambil global variabel holder dari file login
     listBuku = load("buku") # Menginisiasi listBuku sebagai list dari Buku.csv
     system('cls')
     print("="*13 + " [Menu Peminjaman Buku] " + "="*13)
